@@ -1,4 +1,4 @@
-# [⛔ This project is NO LONGER UPDATED ⛔](https://github.com/boxofzero/cassowary/issues/36)
+## I will be attempting to maintain and update cassowary originally made by boxofzero
 
 # Cassowary
 
