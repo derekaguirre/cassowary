@@ -154,26 +154,6 @@
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
       "label": "FF Tidal Residuum"
     },
-    "mask_of_constraint": {
-      "game_id": 41200031,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_001_UI.webp",
-      "label": "Mask of Constraint"
-    },
-    "mask_of_erosion": {
-      "game_id": 41200032,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_002_UI.webp",
-      "label": "Mask of Erosion"
-    },
-    "mask_of_distortion": {
-      "game_id": 41200033,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_003_UI.webp",
-      "label": "Mask of Distortion"
-    },
-    "mask_of_insanity": {
-      "game_id": 41200034,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_004_UI.webp",
-      "label": "Mask of Insanity"
-    },
     "lf_exoswarm_core": {
       "game_id": 41100061,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
@@ -213,6 +193,46 @@
       "game_id": 41100074,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
       "label": "FF Mech Core"
+    },
+    "fractured_exoswarm_pendant": {
+      "game_id": 41100081,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+      "label": "Fractured Exoswarm Pendant"
+    },
+    "worn_exoswarm_pendant": {
+      "game_id": 41100082,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+      "label": "Worn Exoswarm Pendant"
+    },
+    "chipped_exoswarm_pendant": {
+      "game_id": 41100083,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+      "label": "Chipped Exoswarm Pendant"
+    },
+    "intact_exoswarm_pendant": {
+      "game_id": 41100084,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+      "label": "Intact Exoswarm Pendant"
+    },
+    "mask_of_constraint": {
+      "game_id": 41200031,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_001_UI.webp",
+      "label": "Mask of Constraint"
+    },
+    "mask_of_erosion": {
+      "game_id": 41200032,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_002_UI.webp",
+      "label": "Mask of Erosion"
+    },
+    "mask_of_distortion": {
+      "game_id": 41200033,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_003_UI.webp",
+      "label": "Mask of Distortion"
+    },
+    "mask_of_insanity": {
+      "game_id": 41200034,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_004_UI.webp",
+      "label": "Mask of Insanity"
     }
   },
   "boss_ascension_material": {
@@ -621,6 +641,26 @@
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
       "label": "Cadence Blossom"
     },
+    "broken_wing_polarizer": {
+      "game_id": 43021011,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+      "label": "Broken Wing Polarizer"
+    },
+    "monowing_polarizer": {
+      "game_id": 43021012,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+      "label": "Monowing Polarizer"
+    },
+    "polywing_polarizer": {
+      "game_id": 43021013,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+      "label": "Polywing Polarizer"
+    },
+    "layered_wing_polarizer": {
+      "game_id": 43021014,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+      "label": "Layered Wing Polarizer"
+    },
     "incomplete_combustor": {
       "game_id": 43021021,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
@@ -641,6 +681,26 @@
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
       "label": "Reverb Combustor"
     },
+    "spliced_string": {
+      "game_id": 43021031,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+      "label": "Spliced String"
+    },
+    "broken_string": {
+      "game_id": 43021032,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+      "label": "Broken String"
+    },
+    "solidified_string": {
+      "game_id": 43021033,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+      "label": "Solidified String"
+    },
+    "melodic_string": {
+      "game_id": 43021034,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+      "label": "Melodic String"
+    },
     "lf_carved_crystal": {
       "game_id": 43021041,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
@@ -660,6 +720,26 @@
       "game_id": 43021044,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
       "label": "FF Carved Crystal"
+    },
+    "lf_waveworn_shard": {
+      "game_id": 43021051,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
+      "label": "LF Waveworn Shard"
+    },
+    "mf_waveworn_shard": {
+      "game_id": 43021052,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
+      "label": "MF Waveworn Shard"
+    },
+    "hf_waveworn_shard": {
+      "game_id": 43021053,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
+      "label": "HF Waveworn Shard"
+    },
+    "ff_waveworn_shard": {
+      "game_id": 43021054,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
+      "label": "FF Waveworn Shard"
     }
   }
 }
