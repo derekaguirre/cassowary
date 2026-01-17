@@ -2,663 +2,663 @@
   "credit": {
     "shell_credit": {
       "game_id": 2,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_hsb_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp",
       "label": "Shell Credit"
     }
   },
   "echo_development_material": {
     "basic_sealed_tube": {
       "game_id": 36000001,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_10_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_10_UI.webp",
       "label": "Basic Sealed Tube"
     },
     "medium_sealed_tube": {
       "game_id": 36000002,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_11_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_11_UI.webp",
       "label": "Medium Sealed Tube"
     },
     "advanced_sealed_tube": {
       "game_id": 36000003,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_12_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_12_UI.webp",
       "label": "Advanced Sealed Tube"
     },
     "premium_sealed_tube": {
       "game_id": 36000004,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_13_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_13_UI.webp",
       "label": "Premium Sealed Tube"
     },
     "basic_tuner": {
       "game_id": 36000011,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_txq_01_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_txq_01_UI.webp",
       "label": "Basic Tuner"
     },
     "medium_tuner": {
       "game_id": 36000012,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_txq_01_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_txq_01_UI.webp",
       "label": "Medium Tuner"
     },
     "advanced_tuner": {
       "game_id": 36000013,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_txq_02_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_txq_02_UI.webp",
       "label": "Advanced Tuner"
     },
     "premium_tuner": {
       "game_id": 36000014,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_txq_03_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_txq_03_UI.webp",
       "label": "Premium Tuner"
     },
     "modifier": {
       "game_id": 36000015,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconA/T_IconA_18_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconA/T_IconA_18_UI.webp",
       "label": "Modifier"
     }
   },
   "enemy_drop_weapon_skill_material": {
     "lf_whisperin_core": {
       "game_id": 41100011,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_002_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
       "label": "LF Whisperin Core"
     },
     "mf_whisperin_core": {
       "game_id": 41100012,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_002_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
       "label": "MF Whisperin Core"
     },
     "hf_whisperin_core": {
       "game_id": 41100013,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_002_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
       "label": "HF Whisperin Core"
     },
     "ff_whisperin_core": {
       "game_id": 41100014,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_002_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
       "label": "FF Whisperin Core"
     },
     "lf_howler_core": {
       "game_id": 41100021,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_E_002_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
       "label": "LF Howler Core"
     },
     "mf_howler_core": {
       "game_id": 41100022,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_E_002_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
       "label": "MF Howler Core"
     },
     "hf_howler_core": {
       "game_id": 41100023,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_E_002_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
       "label": "HF Howler Core"
     },
     "ff_howler_core": {
       "game_id": 41100024,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_E_002_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
       "label": "FF Howler Core"
     },
     "crude_ring": {
       "game_id": 41100031,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_003_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_003_1_UI.webp",
       "label": "Crude Ring"
     },
     "basic_ring": {
       "game_id": 41100032,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_003_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_003_2_UI.webp",
       "label": "Basic Ring"
     },
     "improved_ring": {
       "game_id": 41100033,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_003_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_003_3_UI.webp",
       "label": "Improved Ring"
     },
     "tailored_ring": {
       "game_id": 41100034,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_003_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_003_4_UI.webp",
       "label": "Tailored Ring"
     },
     "lf_polygon_core": {
       "game_id": 41100041,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_004_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
       "label": "LF Polygon Core"
     },
     "mf_polygon_core": {
       "game_id": 41100042,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_004_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
       "label": "MF Polygon Core"
     },
     "hf_polygon_core": {
       "game_id": 41100043,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_004_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
       "label": "HF Polygon Core"
     },
     "ff_polygon_core": {
       "game_id": 41100044,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_004_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
       "label": "FF Polygon Core"
     },
     "lf_tidal_residuum": {
       "game_id": 41100051,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_005_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_005_1_UI.webp",
       "label": "LF Tidal Residuum"
     },
     "mf_tidal_residuum": {
       "game_id": 41100052,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_005_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_005_2_UI.webp",
       "label": "MF Tidal Residuum"
     },
     "hf_tidal_residuum": {
       "game_id": 41100053,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_005_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_005_3_UI.webp",
       "label": "HF Tidal Residuum"
     },
     "ff_tidal_residuum": {
       "game_id": 41100054,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_O_005_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_005_4_UI.webp",
       "label": "FF Tidal Residuum"
     },
     "mask_of_constraint": {
       "game_id": 41200031,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_001_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_001_UI.webp",
       "label": "Mask of Constraint"
     },
     "mask_of_erosion": {
       "game_id": 41200032,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_002_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_002_UI.webp",
       "label": "Mask of Erosion"
     },
     "mask_of_distortion": {
       "game_id": 41200033,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_003_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_003_UI.webp",
       "label": "Mask of Distortion"
     },
     "mask_of_insanity": {
       "game_id": 41200034,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_004_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_004_UI.webp",
       "label": "Mask of Insanity"
     },
     "lf_exoswarm_core": {
       "game_id": 41100061,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
       "label": "LF Exoswarm Core"
     },
     "mf_exoswarm_core": {
       "game_id": 41100062,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
       "label": "MF Exoswarm Core"
     },
     "hf_exoswarm_core": {
       "game_id": 41100063,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
       "label": "HF Exoswarm Core"
     },
     "ff_exoswarm_core": {
       "game_id": 41100064,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
       "label": "FF Exoswarm Core"
     },
     "lf_mech_core": {
       "game_id": 41100071,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
       "label": "LF Mech Core"
     },
     "mf_mech_core": {
       "game_id": 41100072,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
       "label": "MF Mech Core"
     },
     "hf_mech_core": {
       "game_id": 41100073,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
       "label": "HF Mech Core"
     },
     "ff_mech_core": {
       "game_id": 41100074,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
       "label": "FF Mech Core"
     }
   },
   "boss_ascension_material": {
     "mysterious_code": {
       "game_id": 41300005,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_002_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
       "label": "Mysterious Code"
     },
     "strife_tacet_core": {
       "game_id": 41400014,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_004_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
       "label": "Strife Tacet Core"
     },
     "thundering_tacet_core": {
       "game_id": 41400024,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_001_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
       "label": "Thundering Tacet Core"
     },
     "elegy_tacet_core": {
       "game_id": 41400034,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_006_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
       "label": "Elegy Tacet Core"
     },
     "rage_tacet_core": {
       "game_id": 41400044,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_008_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
       "label": "Rage Tacet Core"
     },
     "roaring_rock_fist": {
       "game_id": 41400054,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_011_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
       "label": "Roaring Rock Fist"
     },
     "gold_dissolving_feather": {
       "game_id": 41400064,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_010_UI.webp",
       "label": "Gold-Dissolving Feather"
     },
     "sound_keeping_tacet_core": {
       "game_id": 41400074,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_007_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
       "label": "Sound-Keeping Tacet Core"
     },
     "group_abomination_tacet_core": {
       "game_id": 41400084,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_009_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
       "label": "Group Abomination Tacet Core"
     },
     "hidden_thunder_tacet_core": {
       "game_id": 41400134,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_012_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
       "label": "Hidden Thunder Tacet Core"
     },
     "topological_confinement": {
       "game_id": 41400154,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_015_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_015_UI.webp",
       "label": "Topological Confinement"
     },
     "cleansing_conch": {
       "game_id": 41400164,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_009_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_009_UI.webp",
       "label": "Cleansing Conch"
     },
     "platinum_core": {
       "game_id": 41400174,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_006_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
       "label": "Platinum Core"
     },
     "blazing_bone": {
       "game_id": 41400184,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_008_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_008_UI.webp",
       "label": "Blazing Bone"
     },
     "unfading_glory": {
       "game_id": 41400214,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_018_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_018_UI.webp",
       "label": "Unfading Glory"
     },
     "truth_in_lies": {
       "game_id": 41400224,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_019_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_019_UI.webp",
       "label": "Truth in Lies"
     },
     "blighted_crown_of_puppet_king": {
       "game_id": 41400234,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_020_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_020_UI.webp",
       "label": "Blighted Crown of Puppet King"
     },
     "abyssal_husk": {
       "game_id": 41400244,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
       "label": "Abyssal Husk"
     },
     "suncoveters_reach": {
       "game_id": 41400264,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
       "label": "Suncoveter's Reach"
     },
     "burning_judgment": {
       "game_id": 41400274,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
       "label": "Burning Judgment"
     }
   },
   "weekly_boss_skill_upgrade_material": {
     "monument_bell": {
       "game_id": 41400094,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_003_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
       "label": "Monument Bell"
     },
     "unending_destruction": {
       "game_id": 41400114,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_014_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
       "label": "Unending Destruction"
     },
     "dreamless_feather": {
       "game_id": 41400124,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_013_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
       "label": "Dreamless Feather"
     },
     "sentinels_dagger": {
       "game_id": 41400144,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_005_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
       "label": "Sentinel's Dagger"
     },
     "the_netherworlds_stare": {
       "game_id": 41400194,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_007_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
       "label": "The Netherworld's Stare"
     },
     "when_irises_bloom": {
       "game_id": 41400204,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_017_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
       "label": "When Irises Bloom"
     },
     "curse_of_the_abyss": {
       "game_id": 41400254,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_L_021_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
       "label": "Curse of the Abyss"
     }
   },
   "overworld_resource_ascension_material": {
     "iris": {
       "game_id": 42300030,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_SM_Gat_33A_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
       "label": "Iris"
     },
     "terraspawn_fungus": {
       "game_id": 42300040,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_HuiYanGu_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
       "label": "Terraspawn Fungus"
     },
     "lanternberry": {
       "game_id": 42300050,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_denglongguo_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
       "label": "Lanternberry"
     },
     "pecok_flower": {
       "game_id": 42300060,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_SM_Gat_18A_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
       "label": "Pecok Flower"
     },
     "belle_poppy": {
       "game_id": 42300070,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_SM_Gat_29A_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
       "label": "Belle Poppy"
     },
     "coriolus": {
       "game_id": 42300080,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_SM_Gat_30A_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
       "label": "Coriolus"
     },
     "wintry_bell": {
       "game_id": 42300090,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_SM_Gat_31A_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
       "label": "Wintry Bell"
     },
     "violet_coral": {
       "game_id": 42300100,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_Sep_061_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
       "label": "Violet Coral"
     },
     "pavo_plum": {
       "game_id": 42310200,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_029_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
       "label": "Pavo Plum"
     },
     "loongs_pearl": {
       "game_id": 42310210,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_030_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
       "label": "Loong's Pearl"
     },
     "nova": {
       "game_id": 42310230,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconTask/T_IconTask_Task_084_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
       "label": "Nova"
     },
     "golden_fleece": {
       "game_id": 42601140,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_045_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
       "label": "Golden Fleece"
     },
     "sword_acorus": {
       "game_id": 42601150,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_044_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
       "label": "Sword Acorus"
     },
     "firecracker_jewelweed": {
       "game_id": 42601160,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_043_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
       "label": "Firecracker Jewelweed"
     },
     "seaside_cendrelis": {
       "game_id": 42601170,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconTask/T_IconTask_Task_144_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
       "label": "Seaside Cendrelis"
     },
     "bamboo_iris": {
       "game_id": 42601220,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_bianzhuhua_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
       "label": "Bamboo Iris"
     },
     "bloodleaf_viburnum": {
       "game_id": 42601230,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_xueyejiami_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
       "label": "Bloodleaf Viburnum"
     },
     "afterlife": {
       "game_id": 42601250,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_054_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
       "label": "\"Afterlife\""
     },
     "stone_rose": {
       "game_id": 42601280,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_056_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
       "label": "Stone Rose"
     },
     "sliverglow_bloom": {
       "game_id": 42601290,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_057_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
       "label": "Sliverglow Bloom"
     },
     "luminous_calendula": {
       "game_id": 42601300,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_058_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
       "label": "Luminous Calendula"
     },
     "summer_flower": {
       "game_id": 42601310,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_060_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
       "label": "Summer Flower"
     },
     "gemini_spore": {
       "game_id": 42601380,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
       "label": "Gemini Spore"
     },
     "rimewisp": {
       "game_id": 42601390,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
       "label": "Rimewisp"
     }
   },
   "resonator_exp_material": {
     "basic_resonance_potion": {
       "game_id": 43010001,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_exp_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp",
       "label": "Basic Resonance Potion"
     },
     "medium_resonance_potion": {
       "game_id": 43010002,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_exp_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp",
       "label": "Medium Resonance Potion"
     },
     "advanced_resonance_potion": {
       "game_id": 43010003,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_exp_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp",
       "label": "Advanced Resonance Potion"
     },
     "premium_resonance_potion": {
       "game_id": 43010004,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconRup/T_IconRup_exp_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp",
       "label": "Premium Resonance Potion"
     }
   },
   "weapon_exp_material": {
     "basic_energy_core": {
       "game_id": 43020001,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Exp_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Exp_1_UI.webp",
       "label": "Basic Energy Core"
     },
     "medium_energy_core": {
       "game_id": 43020002,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Exp_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Exp_2_UI.webp",
       "label": "Medium Energy Core"
     },
     "advanced_energy_core": {
       "game_id": 43020003,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Exp_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Exp_3_UI.webp",
       "label": "Advanced Energy Core"
     },
     "premium_energy_core": {
       "game_id": 43020004,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Exp_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Exp_4_UI.webp",
       "label": "Premium Energy Core"
     }
   },
   "forgery_weapon_skill_material": {
     "inert_metallic_drip": {
       "game_id": 43020011,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Setpup_004_1_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
       "label": "Inert Metallic Drip"
     },
     "reactive_metallic_drip": {
       "game_id": 43020012,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Setpup_004_2_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
       "label": "Reactive Metallic Drip"
     },
     "polarized_metallic_drip": {
       "game_id": 43020013,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Setpup_004_3_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
       "label": "Polarized Metallic Drip"
     },
     "heterized_metallic_drip": {
       "game_id": 43020014,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_Setpup_004_4_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
       "label": "Heterized Metallic Drip"
     },
     "impure_phlogiston": {
       "game_id": 43020021,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_01_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_01_UI.webp",
       "label": "Impure Phlogiston"
     },
     "extracted_phlogiston": {
       "game_id": 43020022,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_02_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_02_UI.webp",
       "label": "Extracted Phlogiston"
     },
     "refined_phlogiston": {
       "game_id": 43020023,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_03_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_03_UI.webp",
       "label": "Refined Phlogiston"
     },
     "flawless_phlogiston": {
       "game_id": 43020024,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_04_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_04_UI.webp",
       "label": "Flawless Phlogiston"
     },
     "lento_helix": {
       "game_id": 43020031,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_005_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_005_UI.webp",
       "label": "Lento Helix"
     },
     "adagio_helix": {
       "game_id": 43020032,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_006_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_006_UI.webp",
       "label": "Adagio Helix"
     },
     "andante_helix": {
       "game_id": 43020033,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_007_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_007_UI.webp",
       "label": "Andante Helix"
     },
     "presto_helix": {
       "game_id": 43020034,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_008_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_008_UI.webp",
       "label": "Presto Helix"
     },
     "waveworn_residue_210": {
       "game_id": 43020041,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_009_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_009_UI.webp",
       "label": "Waveworn Residue 210"
     },
     "waveworn_residue_226": {
       "game_id": 43020042,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_010_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_010_UI.webp",
       "label": "Waveworn Residue 226"
     },
     "waveworn_residue_235": {
       "game_id": 43020043,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_011_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_011_UI.webp",
       "label": "Waveworn Residue 235"
     },
     "waveworn_residue_239": {
       "game_id": 43020044,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_012_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_012_UI.webp",
       "label": "Waveworn Residue 239"
     },
     "cadence_seed": {
       "game_id": 43020051,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_013_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
       "label": "Cadence Seed"
     },
     "cadence_bud": {
       "game_id": 43020052,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_014_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
       "label": "Cadence Bud"
     },
     "cadence_leaf": {
       "game_id": 43020053,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_015_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
       "label": "Cadence Leaf"
     },
     "cadence_blossom": {
       "game_id": 43020054,
-      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_016_UI.png",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
       "label": "Cadence Blossom"
     },
     "incomplete_combustor": {
       "game_id": 43021021,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
       "label": "Incomplete Combustor"
     },
     "aftertune_combustor": {
       "game_id": 43021022,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
       "label": "Aftertune Combustor"
     },
     "remnant_combustor": {
       "game_id": 43021023,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
       "label": "Remnant Combustor"
     },
     "reverb_combustor": {
       "game_id": 43021024,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
       "label": "Reverb Combustor"
     },
     "lf_carved_crystal": {
       "game_id": 43021041,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
       "label": "LF Carved Crystal"
     },
     "mf_carved_crystal": {
       "game_id": 43021042,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
       "label": "MF Carved Crystal"
     },
     "hf_carved_crystal": {
       "game_id": 43021043,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
       "label": "HF Carved Crystal"
     },
     "ff_carved_crystal": {
       "game_id": 43021044,
-      "icon": "",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
       "label": "FF Carved Crystal"
     }
   }
