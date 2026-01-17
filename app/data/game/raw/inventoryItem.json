@@ -173,6 +173,46 @@
       "game_id": 41200034,
       "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_004_UI.png",
       "label": "Mask of Insanity"
+    },
+    "lf_exoswarm_core": {
+      "game_id": 41100061,
+      "icon": "",
+      "label": "LF Exoswarm Core"
+    },
+    "mf_exoswarm_core": {
+      "game_id": 41100062,
+      "icon": "",
+      "label": "MF Exoswarm Core"
+    },
+    "hf_exoswarm_core": {
+      "game_id": 41100063,
+      "icon": "",
+      "label": "HF Exoswarm Core"
+    },
+    "ff_exoswarm_core": {
+      "game_id": 41100064,
+      "icon": "",
+      "label": "FF Exoswarm Core"
+    },
+    "lf_mech_core": {
+      "game_id": 41100071,
+      "icon": "",
+      "label": "LF Mech Core"
+    },
+    "mf_mech_core": {
+      "game_id": 41100072,
+      "icon": "",
+      "label": "MF Mech Core"
+    },
+    "hf_mech_core": {
+      "game_id": 41100073,
+      "icon": "",
+      "label": "HF Mech Core"
+    },
+    "ff_mech_core": {
+      "game_id": 41100074,
+      "icon": "",
+      "label": "FF Mech Core"
     }
   },
   "boss_ascension_material": {
@@ -265,6 +305,16 @@
       "game_id": 41400244,
       "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
       "label": "Abyssal Husk"
+    },
+    "suncoveters_reach": {
+      "game_id": 41400264,
+      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "label": "Suncoveter's Reach"
+    },
+    "burning_judgment": {
+      "game_id": 41400274,
+      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "label": "Burning Judgment"
     }
   },
   "weekly_boss_skill_upgrade_material": {
@@ -414,6 +464,16 @@
       "game_id": 42601310,
       "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconC/T_IconC_060_UI.png",
       "label": "Summer Flower"
+    },
+    "gemini_spore": {
+      "game_id": 42601380,
+      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "label": "Gemini Spore"
+    },
+    "rimewisp": {
+      "game_id": 42601390,
+      "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconMout/T_IconMout_010_UI.png",
+      "label": "Rimewisp"
     }
   },
   "resonator_exp_material": {
@@ -560,6 +620,46 @@
       "game_id": 43020054,
       "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/inventory-items/IconWup/T_IconWup_016_UI.png",
       "label": "Cadence Blossom"
+    },
+    "incomplete_combustor": {
+      "game_id": 43021021,
+      "icon": "",
+      "label": "Incomplete Combustor"
+    },
+    "aftertune_combustor": {
+      "game_id": 43021022,
+      "icon": "",
+      "label": "Aftertune Combustor"
+    },
+    "remnant_combustor": {
+      "game_id": 43021023,
+      "icon": "",
+      "label": "Remnant Combustor"
+    },
+    "reverb_combustor": {
+      "game_id": 43021024,
+      "icon": "",
+      "label": "Reverb Combustor"
+    },
+    "lf_carved_crystal": {
+      "game_id": 43021041,
+      "icon": "",
+      "label": "LF Carved Crystal"
+    },
+    "mf_carved_crystal": {
+      "game_id": 43021042,
+      "icon": "",
+      "label": "MF Carved Crystal"
+    },
+    "hf_carved_crystal": {
+      "game_id": 43021043,
+      "icon": "",
+      "label": "HF Carved Crystal"
+    },
+    "ff_carved_crystal": {
+      "game_id": 43021044,
+      "icon": "",
+      "label": "FF Carved Crystal"
     }
   }
 }

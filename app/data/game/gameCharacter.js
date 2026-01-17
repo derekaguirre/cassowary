@@ -31,7 +31,7 @@ let baseCharLevellingMaterialsCount = [
 			tiered_enemy_drop_weapon_skill_material: {
 				2: 8,
 			},
-			shell_credit: 10000,
+			shell_credit: 15000,
 		},
 	},
 	{ level: '60', materials: { char_exp: 286600, shell_credit: 100310 } },
