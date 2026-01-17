@@ -328,12 +328,12 @@
     },
     "suncoveters_reach": {
       "game_id": 41400264,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_023_UI.webp",
       "label": "Suncoveter's Reach"
     },
     "burning_judgment": {
       "game_id": 41400274,
-      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_010_UI.webp",
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
       "label": "Burning Judgment"
     }
   },
@@ -494,6 +494,11 @@
       "game_id": 42601390,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
       "label": "Rimewisp"
+    },
+    "arithmetic_shell": {
+      "game_id": 42601400,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
+      "label": "Arithmetic Shell"
     }
   },
   "resonator_exp_material": {
