@@ -38,6 +38,10 @@
           <li>- sort by in-game: sort by rarity, category? a-z?</li>
           <li>- Filtering by element, weapon type, rarity</li>
           <li>- try google drive client api if it's actually possible</li>
+          <li>
+            - Add stylized forte screen with icons on the character pages when
+            upgrading
+          </li>
           <li>- Multiple accounts</li>
           <li>
             - Button and Modal for adding Characters/Weapons which would allow
