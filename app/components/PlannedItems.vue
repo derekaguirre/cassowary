@@ -1,7 +1,7 @@
 <template>
   <section>
     <div
-      class="w-auto h-auto flex items-center gap-1 overflow-x-auto py-1 px-1 border-2 border-yellow-500"
+      class="w-auto h-auto flex items-center gap-1 overflow-x-auto py-1 px-1"
     >
       <div
         v-for="(item, index) in displayList()"
