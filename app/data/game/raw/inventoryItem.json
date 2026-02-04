@@ -401,6 +401,12 @@
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_022_UI.webp",
       "label": "Burning Judgment",
       "rarity": "4"
+    },
+    "our_choice": {
+      "game_id": 41400284,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
+      "label": "Our Choice",
+      "rarity": "4"
     }
   },
   "weekly_boss_skill_upgrade_material": {
@@ -444,6 +450,12 @@
       "game_id": 41400254,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
       "label": "Curse of the Abyss",
+      "rarity": "4"
+    },
+    "gold_in_memory": {
+      "game_id": 41400294,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
+      "label": "Gold in Memory",
       "rarity": "4"
     }
   },
@@ -596,6 +608,18 @@
       "game_id": 42601400,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
       "label": "Arithmetic Shell",
+      "rarity": "1"
+    },
+    "moss_amber": {
+      "game_id": 42601420,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
+      "label": "Moss Amber",
+      "rarity": "1"
+    },
+    "edelschnee": {
+      "game_id": 42601430,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+      "label": "Edelschnee",
       "rarity": "1"
     }
   },
