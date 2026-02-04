@@ -36,9 +36,13 @@
           </li>
           <li>- add backup and restore local storage data</li>
           <li>- sort by in-game: sort by rarity, category? a-z?</li>
+          <li>- Filtering by element, weapon type, rarity</li>
           <li>- try google drive client api if it's actually possible</li>
           <li>- Multiple accounts</li>
-          <li>- Custom Characters/Weapons</li>
+          <li>
+            - Button and Modal for adding Characters/Weapons which would allow
+            for custom characters as well
+          </li>
           <li>
             - Calculate real time cost of specified materials if applicable
           </li>

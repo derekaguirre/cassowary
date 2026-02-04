@@ -21,6 +21,28 @@
       { "stat": "aero_dmg_bonus", "value": 0.042 }
     ]
   },
+  "aemeath": {
+    "game_id": 1210,
+    "display_name": "Aemeath",
+    "weapon": "sword",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "our_choice",
+    "overworld_resource_ascension_material": "moss_amber",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "wing_polarizer",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
   "augusta": {
     "game_id": 1306,
     "display_name": "Augusta",
@@ -494,6 +516,28 @@
     "overworld_resource_ascension_material": "terraspawn_fungus",
     "weekly_boss_skill_upgrade_material": "sentinels_dagger",
     "tiered_forgery_weapon_skill_material": "waveworn_residue",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "luuk_herssen": {
+    "game_id": 1510,
+    "display_name": "Luuk Herssen",
+    "weapon": "gauntlets",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "boss_ascension_material": "suncoveters_reach",
+    "overworld_resource_ascension_material": "edelschnee",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "waveworn",
     "bonus_stats": [
       { "stat": "crit_rate", "value": 0.012 },
       { "stat": "atk", "value": 0.018 },
