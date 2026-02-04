@@ -89,6 +89,15 @@
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "tiered_forgery_weapon_skill_material": "waveworn_residue"
   },
+  "radiance_cleaver": {
+    "game_id": 21010045,
+    "display_name": "Radiance Cleaver",
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "carved_crystal"
+  },
   "thunderflare_dominion": {
     "game_id": 21010046,
     "display_name": "Thunderflare Dominion",
@@ -133,6 +142,15 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010064_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "tiered_forgery_weapon_skill_material": "waveworn_residue"
+  },
+  "starfield_calibrator": {
+    "game_id": 21010066,
+    "display_name": "Starfield Calibrator",
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "carved_crystal"
   },
   "autumntrace": {
     "game_id": 21010074,
@@ -269,6 +287,15 @@
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "metallic_drip"
   },
+  "laser_shearer": {
+    "game_id": 21020045,
+    "display_name": "Laser Shearer",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
+  },
   "bloodpacts_pledge": {
     "game_id": 21020046,
     "display_name": "Bloodpact's Pledge",
@@ -322,6 +349,15 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020074_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "metallic_drip"
+  },
+  "everbright_polestar": {
+    "game_id": 21020076,
+    "display_name": "Everbright Polestar",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
   },
   "endless_collapse": {
     "game_id": 21020084,
@@ -439,6 +475,24 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030044_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "phlogiston"
+  },
+  "phasic_homogenizer": {
+    "game_id": 21030045,
+    "display_name": "Phasic Homogenizer",
+    "rarity": 5,
+    "weapon_type": "pistols",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "combustor"
+  },
+  "spectrum_blaster": {
+    "game_id": 21030046,
+    "display_name": "Spectrum Blaster",
+    "rarity": 5,
+    "weapon_type": "pistols",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "combustor"
   },
   "guardian_pistols": {
     "game_id": 21030053,
@@ -584,6 +638,15 @@
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "cadence"
   },
+  "pulsation_bracer": {
+    "game_id": 21040045,
+    "display_name": "Pulsation Bracer",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
+  },
   "moongazers_sigil": {
     "game_id": 21040046,
     "display_name": "Moongazer's Sigil",
@@ -601,6 +664,15 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21040053_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "cadence"
+  },
+  "daybreakers_spine": {
+    "game_id": 21040056,
+    "display_name": "Daybreaker's Spine",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
   },
   "hollow_mirage": {
     "game_id": 21040064,
@@ -754,6 +826,15 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050044_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "helix"
+  },
+  "boson_astrolabe": {
+    "game_id": 21040056,
+    "display_name": "Boson Astrolabe",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
   },
   "luminous_hymn": {
     "game_id": 21050046,

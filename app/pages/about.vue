@@ -55,6 +55,7 @@
         <h2 class="font-extrabold text-md">Planned fixes</h2>
         <ul>
           <li>- fix navbar appearing on the footer</li>
+          <li>- Add all tiers of weapons</li>
         </ul>
       </div>
     </div>
