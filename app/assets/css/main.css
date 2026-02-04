@@ -1,10 +1,31 @@
-@import 'tailwindcss';
-@import '@nuxt/ui';
+@import "tailwindcss";
+@import "@nuxt/ui";
 
 :root {
-	--ui-bg: #e0e0e0; /* light-mode background */
+  --ui-bg: #e0e0e0; /* light-mode background */
 }
 
 html.dark {
-	--ui-bg: #121212; /* dark-mode background */
+  --ui-bg: #121212; /* dark-mode background */
+}
+
+/* Background colors for each rarity */
+.rarity-1 {
+  background: linear-gradient(180deg, #6a6d74, #868586);
+}
+
+.rarity-2 {
+  background: linear-gradient(180deg, #4b6c67, #519072);
+}
+
+.rarity-3 {
+  background: linear-gradient(180deg, #567496, #5392b8);
+}
+
+.rarity-4 {
+  background: linear-gradient(180deg, #5e5789, #9c75b7);
+}
+
+.rarity-5 {
+  background: linear-gradient(180deg, #945c2c, #b27330);
 }
