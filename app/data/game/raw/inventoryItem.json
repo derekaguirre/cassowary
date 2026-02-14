@@ -40,19 +40,19 @@
     },
     "medium_tuner": {
       "game_id": 36000012,
-      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_02_UI.png",
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_01_UI.png",
       "label": "Medium Tuner",
       "rarity": "3"
     },
     "advanced_tuner": {
       "game_id": 36000013,
-      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_03_UI.png",
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_02_UI.png",
       "label": "Advanced Tuner",
       "rarity": "4"
     },
     "premium_tuner": {
       "game_id": 36000014,
-      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_04_UI.png",
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_txq_03_UI.png",
       "label": "Premium Tuner",
       "rarity": "5"
     },
