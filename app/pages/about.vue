@@ -36,6 +36,10 @@
           </li>
           <li>- add backup and restore local storage data</li>
           <li>- sort by in-game: sort by rarity, category? a-z?</li>
+          <li>
+            - Add time per waveplate cost/convert waveplate to days and display
+            time per goal and total days (double, not int)
+          </li>
           <li>- Filtering by element, weapon type, rarity</li>
           <li>- try google drive client api if it's actually possible</li>
           <li>- Multiple accounts</li>
@@ -105,7 +109,8 @@
         this project to allow planning for wuthering waves.
       </div>
       <div>
-        Thanks to wutheringwaves.gg and dim's wutheringdata for all the data
+        Thanks to wutheringwaves.gg, dim's wutheringdata, encore.moe, and
+        wutheringtools.com for all the data
       </div>
     </div>
 
