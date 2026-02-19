@@ -1,68 +1,77 @@
-import { useStorage } from '@vueuse/core';
-import * as dbNote from '@/data/database/dbNote';
+import * as dbNote from "@/data/database/dbNote";
+import { useStorage } from "@vueuse/core";
 
 const notesRepo = () => {
-	return useStorage('notes', {});
+  return useStorage("notes", {});
 };
 
-export const useNoteStore = defineStore('notes', () => {
-	const notes = ref({});
+export const useNoteStore = defineStore("notes", () => {
+  const notes = ref({});
 
-	function init() {
-		notes.value = notesRepo().value;
-	}
+  function init() {
+    notes.value = notesRepo().value;
+  }
 
-	function storeToStorage() {
-		console.log('storing notes to localStorage');
-		notesRepo().value = notes.value;
-	}
+  function storeToStorage() {
+    console.log("storing notes to localStorage");
+    notesRepo().value = notes.value;
+  }
 
-	function getOrInitEntry(id) {
-		if (id && Object.prototype.hasOwnProperty.call(notes.value, id)) {
-			return notes.value[id];
-		}
-		return { ...dbNote.note };
-	}
+  function getOrInitEntry(id) {
+    if (id && Object.prototype.hasOwnProperty.call(notes.value, id)) {
+      return notes.value[id];
+    }
+    return { ...dbNote.note };
+  }
 
-	function getLastId() {
-		return parseInt(Object.keys(notes.value).toSorted().at(-1)) || 0;
-	}
+  function getLastId() {
+    // Get all note IDs as numbers
+    const noteIds = Object.keys(notes.value).map(Number);
 
-	function upsert(note) {
-		// if the id does not exist in the notes key, init it
-		if (note.id === undefined) {
-			let id = getLastId() + 1;
-			console.log('new id: ' + id);
-			note.id = id;
-			notes.value[id] = note;
-			notes.value[id]['created_at'] = new Date().toISOString();
-		}
-		let id = note.id;
-		notes.value[id]['updated_at'] = new Date().toISOString();
+    // If there are no notes, return 0
+    if (noteIds.length === 0) {
+      return 0;
+    }
 
-		storeToStorage();
-	}
+    // Otherwise return the highest ID
+    return Math.max(...noteIds);
+  }
 
-	function deleteNote(id) {
-		if (!Object.prototype.hasOwnProperty.call(notes.value, id)) {
-			return;
-		}
-		delete notes.value[id];
-		storeToStorage();
-	}
+  function upsert(note) {
+    // if the id does not exist in the notes key, init it
+    if (note.id === undefined) {
+      let id = getLastId() + 1;
+      console.log("new id: " + id);
+      note.id = id;
+      notes.value[id] = note;
+      notes.value[id]["created_at"] = new Date().toISOString();
+    }
+    let id = note.id;
+    notes.value[id]["updated_at"] = new Date().toISOString();
 
-	function restoreData(data) {
-		notes.value = data;
-		storeToStorage();
-	}
+    storeToStorage();
+  }
 
-	return {
-		notes,
-		init,
-		getOrInitEntry,
-		getLastId,
-		upsert,
-		deleteNote,
-		restoreData,
-	};
+  function deleteNote(id) {
+    if (!Object.prototype.hasOwnProperty.call(notes.value, id)) {
+      return;
+    }
+    delete notes.value[id];
+    storeToStorage();
+  }
+
+  function restoreData(data) {
+    notes.value = data;
+    storeToStorage();
+  }
+
+  return {
+    notes,
+    init,
+    getOrInitEntry,
+    getLastId,
+    upsert,
+    deleteNote,
+    restoreData,
+  };
 });
