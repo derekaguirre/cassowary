@@ -12,35 +12,31 @@ export const useChecklistStore = defineStore("checklist", () => {
   const storage = useStorage("checklist", {});
   const checklist = ref({});
 
-  function clearLegacyNotes() {
+  function init() {
+    // Migrate from notes to checklist
     if (localStorage.getItem("notes")) {
       localStorage.removeItem("notes");
     }
-  }
-
-  function init() {
-    // Load from storage and clear old notes if found
-    clearLegacyNotes();
     checklist.value = storage.value || {};
-
-    const globalIds = globalChecklistTasks.map((t) => String(t.id));
+    const globalIds = new Set(globalChecklistTasks.map((t) => String(t.id)));
 
     // Remove unlisted globals
     Object.keys(checklist.value).forEach((id) => {
-      if (checklist.value[id].isGlobal && !globalIds.includes(String(id))) {
+      if (checklist.value[id].isGlobal && !globalIds.has(id)) {
         delete checklist.value[id];
       }
     });
 
-    // Sync current globals
-    for (const globalTask of globalChecklistTasks) {
+    // Sync current globals list
+    globalChecklistTasks.forEach((globalTask) => {
       const id = String(globalTask.id);
-      const existing = checklist.value[id];
-
-      checklist.value[id] = existing
-        ? { ...globalTask, ...existing, isGlobal: true }
-        : { ...dbChecklist.checklistItem, ...globalTask, isGlobal: true };
-    }
+      checklist.value[id] = {
+        ...dbChecklist.checklistItem,
+        ...globalTask,
+        ...(checklist.value[id] || {}),
+        isGlobal: true,
+      };
+    });
   }
 
   // Persist changes to storage whenever checklist changes

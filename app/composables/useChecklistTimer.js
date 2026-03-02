@@ -77,7 +77,7 @@ export function getCountdownLabel(item) {
   }
 
   if (item.checked && resetDate) {
-    return `Reset: ${formatDuration(resetDate - now)}`;
+    return `${formatDuration(resetDate - now)}`;
   }
 
   if (!resetDate) return "no deadline";

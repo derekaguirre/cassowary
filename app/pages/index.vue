@@ -23,7 +23,7 @@ case by case
 IMPORTANT: resolveComponent needs to happen on vue files,
  should not on composables
 */
-let accordionTemplates = {
+const accordionTemplates = {
   welcome: {
     component: resolveComponent("HomeWelcome"),
     label: "Welcome To Cassowary!",
@@ -45,33 +45,27 @@ let accordionTemplates = {
     label: "Needed Materials",
   },
 };
+
 const accordionDefaultOrder = Object.keys(accordionTemplates);
 // init variables
 const accordionGroupKey = "index_page";
-let templateRef = "homeAccordion";
-let accordionItems = ref([]);
-let accordionActives = ref([]);
+const templateRef = "homeAccordion";
 
-// init default values
-// accordionItems tell accordion what the content would be
-accordionDefaultOrder.forEach((item) => {
-  accordionItems.value.push({
+// Initialize reactive state with defaults
+const accordionItems = ref(
+  // init default values
+  // accordionItems tell accordion what the content would be
+  accordionDefaultOrder.map((item) => ({
     label: accordionTemplates[item].label,
     slot: item,
     value: item,
-    ui: {
-      label: "font-extrabold text-4xl",
-    },
-  });
-});
-// accordionActive tell accordion which items to open
-accordionActives.value = accordionDefaultOrder.slice(0, 2);
+    ui: { label: "font-extrabold text-4xl" },
+  })),
+);
 
-// composable
-({ accordionItems, accordionActives } = useAccordion(
-  templateRef,
-  accordionGroupKey,
-  accordionItems,
-  accordionActives,
-));
+// Open first two by default
+const accordionActives = ref(accordionDefaultOrder.slice(0, 2));
+
+// Pass refs directly; the composable handles the synchronization
+useAccordion(templateRef, accordionGroupKey, accordionItems, accordionActives);
 </script>

@@ -1,5 +1,5 @@
-import { useAccordionStore } from '@/stores/accordionStore';
-import { useSortable } from '@vueuse/integrations/useSortable';
+import { useAccordionStore } from "@/stores/accordionStore";
+import { useSortable } from "@vueuse/integrations/useSortable";
 
 /*
 @function useAccordion
@@ -8,99 +8,96 @@ import { useSortable } from '@vueuse/integrations/useSortable';
 
 @param templateRef for useSortable
 @param accordionGroupKey for key of data
+@param accordionItems - The list of possible accordion sections
+@param accordionActives - The list of currently expanded sections
 
 @return accordionItems
 @return accordionActives
-
 */
 export function useAccordion(
-	templateRef,
-	accordionGroupKey,
-	accordionItems,
-	accordionActives
+  templateRef,
+  accordionGroupKey,
+  accordionItems,
+  accordionActives,
 ) {
-	/*
-	init return variables
-	[
-	{key: 'aaa', active: true},
-	{key: 'bbb', active: false},
-	]
-	*/
+  // enable reordering the UI
+  useSortable(useTemplateRef(templateRef), accordionItems, {
+    animation: 150,
+  });
 
-	// init sortable
-	useSortable(useTemplateRef(templateRef), accordionItems, {
-		animation: 150,
-	});
+  onBeforeMount(() => {
+    // get data from storage
+    const store = useAccordionStore();
+    store.init();
 
-	onBeforeMount(() => {
-		// get data from storage
+    // get data based on groupKey
+    let accordionGroupData = store.getGroup(accordionGroupKey);
 
-		// init accordionStore
-		useAccordionStore().init();
-		// get data based on groupKey
-		let accordionGroupData = useAccordionStore().getGroup(accordionGroupKey);
-		// from stored data, this should prepare data for sorted accordion data and each open/active status
-		if (accordionGroupData === undefined) {
-			// TODO handle if empty?
-			return;
-		}
-		let reoderedAccordionItems = [];
-		accordionActives.value = [];
-		Object.entries(accordionGroupData).forEach(([key, value], index) => {
-			// set accordionItems value
-			// reoder accordionItems
-			reoderedAccordionItems[value.index_position] = accordionItems.value.find(
-				(item) => {
-					return item.slot === key;
-				}
-			);
+    // Handle first time visit
+    if (!accordionGroupData) {
+      // Snapshot the current component defaults and save to the store
+      const initialStoreData = {};
+      accordionItems.value.forEach((item, index) => {
+        initialStoreData[item.slot] = {
+          index_position: index,
+          open: accordionActives.value.includes(item.slot),
+        };
+      });
+      store.upsertWholeGroup(accordionGroupKey, initialStoreData);
+      return;
+    }
 
-			// set accordionActives value
-			if (value.open) {
-				accordionActives.value.push(key);
-			}
-		});
+    let reoderedAccordionItems = [];
+    accordionActives.value = [];
 
-		// add item that is not stored
-		accordionItems.value.forEach((item) => {
-			if (
-				!accordionGroupData[item.slot] &&
-				!accordionActives.value.includes(item.slot)
-			) {
-				reoderedAccordionItems.push(item);
-			}
-		});
+    // Loop through storage to restore order and active states
+    Object.entries(accordionGroupData).forEach(([key, value]) => {
+      const foundItem = accordionItems.value.find((item) => item.slot === key);
 
-		accordionItems.value = reoderedAccordionItems.filter(
-			(value) => value !== null
-		);
-	});
+      if (foundItem) {
+        // Reorder the item to its saved position
+        reoderedAccordionItems[value.index_position] = foundItem;
 
-	// watcher for accordionActives
-	// watcher accordionItems sorting position
-	// store data when it changes
-	watch(
-		[accordionItems, accordionActives],
-		([newAccordionItems, newAccordionActives]) => {
-			//prepare data for store
-			let accordionStoreData = {};
-			newAccordionItems.forEach((item, index) => {
-				accordionStoreData[item.slot] = {
-					index_position: index,
-					open: newAccordionActives.includes(item.slot),
-				};
-			});
-			// store data
-			useAccordionStore().upsertWholeGroup(
-				accordionGroupKey,
-				accordionStoreData
-			);
-		}
-	);
+        // Restore whether this section was open or closed
+        if (value.open) {
+          accordionActives.value.push(key);
+        }
+      }
+    });
 
-	// return what sorted accordion should be with each open/active status
-	return {
-		accordionItems,
-		accordionActives,
-	};
+    // add items that are not stored but in the code
+    accordionItems.value.forEach((item) => {
+      const isStored = accordionGroupData[item.slot];
+      if (!isStored) {
+        reoderedAccordionItems.push(item);
+      }
+    });
+
+    // Remove any undefined holes in the array and update the UI ref
+    accordionItems.value = reoderedAccordionItems.filter(Boolean);
+  });
+
+  // Save changes whenever user reorders or toggles an accordion
+  // watcher for accordionActives
+  // watcher accordionItems sorting position
+  // store data when it changes
+  watch(
+    [accordionItems, accordionActives],
+    ([newAccordionItems, newAccordionActives]) => {
+      //prepare data for store
+      const dataToStore = {};
+      newAccordionItems.forEach((item, index) => {
+        dataToStore[item.slot] = {
+          index_position: index,
+          open: newAccordionActives.includes(item.slot),
+        };
+      });
+      // store data
+      useAccordionStore().upsertWholeGroup(accordionGroupKey, dataToStore);
+    },
+    { deep: true },
+  );
+
+  // return what sorted accordion should be with each open/active status
+  return { accordionItems, accordionActives };
 }
