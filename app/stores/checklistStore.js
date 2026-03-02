@@ -12,8 +12,15 @@ export const useChecklistStore = defineStore("checklist", () => {
   const storage = useStorage("checklist", {});
   const checklist = ref({});
 
+  function clearLegacyNotes() {
+    if (localStorage.getItem("notes")) {
+      localStorage.removeItem("notes");
+    }
+  }
+
   function init() {
-    // Load from storage
+    // Load from storage and clear old notes if found
+    clearLegacyNotes();
     checklist.value = storage.value || {};
 
     const globalIds = globalChecklistTasks.map((t) => String(t.id));
