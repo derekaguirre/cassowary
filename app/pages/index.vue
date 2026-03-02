@@ -32,9 +32,9 @@ let accordionTemplates = {
     component: resolveComponent("Stamina"),
     label: "Stamina Tracker",
   },
-  notes: {
-    component: resolveComponent("Notes"),
-    label: "Notes",
+  checklist: {
+    component: resolveComponent("Checklist"),
+    label: "Events Checklist",
   },
   planned_items: {
     component: resolveComponent("PlannedItems"),

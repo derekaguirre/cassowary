@@ -1,0 +1,16 @@
+export const checklistItem = {
+  title: "",
+  description: "",
+  recurrence: "none",
+  recurrenceMode: "from-original",
+  originalDate: null,
+  completionDate: null,
+  deadline: null,
+  checked: false,
+  isSnoozed: false,
+  snoozeUntil: null,
+  isGlobal: false,
+  anchorHour: 9,
+  created_at: null,
+  updated_at: null,
+};

@@ -21,7 +21,11 @@
       <div className="implemented-features">
         <h2 class="font-extrabold text-md">Implemented</h2>
         <ul>
-          <li>- Basic manual notes system to track events or tasks</li>
+          <li>
+            - New events checklist system that allows recurring events and
+            timers. Includes a global list of events with the option of adding
+            custom events
+          </li>
         </ul>
       </div>
       <div className="planned-features">
@@ -60,6 +64,7 @@
         <ul>
           <li>- fix navbar appearing on the footer</li>
           <li>- Add all tiers of weapons</li>
+          <li>- Number overflow on character skills</li>
         </ul>
       </div>
     </div>
