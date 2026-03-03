@@ -82,8 +82,6 @@ let timer;
 
 onMounted(() => {
   store.init();
-  store.resetCycles();
-  // Cycle reset check timer
   timer = setInterval(() => {
     store.resetCycles();
   }, 1000);
