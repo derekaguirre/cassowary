@@ -62,7 +62,7 @@ export default [
   cyclical("cyclical-1", "Tower of Adversity", "Endgame", 28, "2026-02-02T09:00:00Z"),
   cyclical("cyclical-2", "Whimpering Wastes", "Endgame", 28, "2026-01-19T09:00:00Z"),
   cyclical("cyclical-3", "Doubled Pawns Matrix", "Endgame", 36, "2026-02-10T20:00:00Z"),
-  cyclical("store-1", "Oscillated Coral Shop", "Store", 42, "2026-02-05T17:00:00Z"),
+  cyclical("store-1", "Oscillated Coral Shop", "Store", 42, "2026-02-04T17:00:00Z"),
 
   event("event-1", "Rein Back! Migration Mayhem!", "Event", "2026-03-09T09:00:00Z"),
   event("event-3", "Veins of the Frostlands", "Event", "2026-03-11T20:00:00Z"),
