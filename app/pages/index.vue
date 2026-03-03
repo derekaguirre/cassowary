@@ -28,13 +28,13 @@ const accordionTemplates = {
     component: resolveComponent("HomeWelcome"),
     label: "Welcome To Cassowary!",
   },
-  stamina: {
-    component: resolveComponent("Stamina"),
-    label: "Stamina Tracker",
-  },
   checklist: {
     component: resolveComponent("Checklist"),
     label: "Events Checklist",
+  },
+  stamina: {
+    component: resolveComponent("Stamina"),
+    label: "Stamina Tracker",
   },
   planned_items: {
     component: resolveComponent("PlannedItems"),
@@ -64,7 +64,7 @@ const accordionItems = ref(
 );
 
 // Open first two by default
-const accordionActives = ref(accordionDefaultOrder.slice(0, 2));
+const accordionActives = ref(accordionDefaultOrder.slice(0, 3));
 
 // Pass refs directly; the composable handles the synchronization
 useAccordion(templateRef, accordionGroupKey, accordionItems, accordionActives);

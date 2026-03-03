@@ -69,6 +69,10 @@
           <li>- fix navbar appearing on the footer</li>
           <li>- Add all tiers of weapons</li>
           <li>- Number overflow on character skills</li>
+          <li>
+            - Checklist not updating the values/times due to using stale data
+            from the local storage
+          </li>
         </ul>
       </div>
     </div>
