@@ -674,6 +674,15 @@
     "tiered_enemy_drop_weapon_skill_material": "mech_core",
     "tiered_forgery_weapon_skill_material": "waveworn_shard"
   },
+  "solsworn_ciphers": {
+    "game_id": 21040066,
+    "display_name": "Solsworn Ciphers",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/SolswornCiphers.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
+  },
   "hollow_mirage": {
     "game_id": 21040064,
     "display_name": "Hollow Mirage",

@@ -32,9 +32,20 @@ export const useChecklistStore = defineStore("checklist", () => {
     // Merge or add global tasks
     for (const globalTask of globalChecklistTasks) {
       const id = String(globalTask.id);
-      newChecklist[id] = newChecklist[id]
-        ? { ...globalTask, ...newChecklist[id], isGlobal: true } // If exists merge
-        : { ...dbChecklist.checklistItem, ...globalTask, isGlobal: true }; // Otherwise create new
+
+      if (newChecklist[id]) {
+        newChecklist[id] = {
+          ...newChecklist[id],
+          ...globalTask,
+          isGlobal: true,
+        };
+      } else {
+        newChecklist[id] = {
+          ...dbChecklist.checklistItem,
+          ...globalTask,
+          isGlobal: true,
+        };
+      }
     }
 
     checklist.value = newChecklist;

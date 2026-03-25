@@ -32,13 +32,14 @@ const weekly = (id, title, originalDate) =>
     anchorHour: 2,
   });
 
-const event = (id, title, description, deadline) =>
+const event = (id, title, description, startDate = null, deadline) =>
   createTask({
     id,
     title,
     deadline,
     description,
     recurrence: "none",
+    ...(startDate && { originalDate: startDate }),
   });
 
 const cyclical = (id, title, description, days, originalDate) =>
@@ -61,17 +62,14 @@ export default [
 
   cyclical("cyclical-1", "Tower of Adversity", "Endgame", 28, "2026-02-02T09:00:00Z"),
   cyclical("cyclical-2", "Whimpering Wastes", "Endgame", 28, "2026-01-19T09:00:00Z"),
-  cyclical("cyclical-3", "Doubled Pawns Matrix", "Endgame", 36, "2026-02-10T20:00:00Z"),
+  cyclical("cyclical-3", "Endstate Matrix", "Endgame", 36, "2026-02-10T20:00:00Z"),
   cyclical("store-1", "Oscillated Coral Shop", "Store", 42, "2026-02-04T17:00:00Z"),
 
-  event("event-1", "Rein Back! Migration Mayhem!", "Event", "2026-03-09T09:00:00Z"),
-  event("event-3", "Veins of the Frostlands", "Event", "2026-03-11T20:00:00Z"),
-  event("event-2", "Full Throttle! Bolt & Blitz!", "Event", "2026-03-18T09:00:00Z"),
-  event("event-4", "TERM-X: Outreach", "Event", "2026-03-18T09:00:00Z"),
-  event("event-5", "Unfrozen Traces", "Event", "2026-03-18T09:00:00Z"),
-  event("event-6", "Where Stars Cascade Down", "Event", "2026-03-18T17:00:00Z"),
-  event("event-7", "Blade Hunter: Wilderness", "Event", "2026-03-18T09:00:00Z"),
+  event("event-1", "Lahai-Roi Blocks", "Event", "2026-03-26 04:00", "2026-04-13 03:59"),
+  event("event-2", "Speed up! F.U.E.L. Instrumentality Project!", "Event", "2026-04-02 04:00", "2026-04-20 03:59"),
+  event("event-3", "Knights of the Wild", "Event", "2026-04-09 10:00" ,"2026-04-29 03:59"),
+  event("event-4", "The Flaming Red in Memory", "Event", "2026-04-16 04:00", "2026-04-29 03:59"),
 
-  event("checkin-1", "Gifts of Soft Snow", "Check-in", "2026-03-18T09:00:00Z"),
+  event("checkin-1", "Gifts of Solsworn", "Check-in","2026-03-19 11:00", "2026-04-29 03:59"),
 
 ];
