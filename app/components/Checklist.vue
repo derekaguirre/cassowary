@@ -71,7 +71,7 @@ import { onMounted, onUnmounted, ref } from "vue";
 
 const store = useChecklistStore();
 const { incompletedTasks, completedTasks } = storeToRefs(store);
-
+const toast = useToast();
 const isAddModalOpen = ref(false);
 const isSnoozeModalOpen = ref(false);
 const editingItem = ref(null);
@@ -80,11 +80,34 @@ const showCompleted = ref(false);
 
 let timer;
 
+// Triggers reset cycles
 onMounted(() => {
   store.init();
-  timer = setInterval(() => {
-    store.resetCycles();
-  }, 1000);
+
+  // Version Check logic
+  if (store.checkVersion()) {
+    toast.add({
+      id: "version_update_notification",
+      title: "Update Available",
+      description: "New events have been added. Refresh to sync.",
+      icon: "i-heroicons-cloud-arrow-down",
+      duration: 0,
+      close: false,
+      progress: false,
+      actions: [
+        {
+          label: "Refresh Now",
+          variant: "solid",
+          color: "primary",
+          icon: "i-heroicons-arrow-path",
+          onClick: (e) => {
+            e?.stopPropagation();
+            store.confirmUpdate();
+          },
+        },
+      ],
+    });
+  }
 });
 
 onUnmounted(() => clearInterval(timer));
@@ -106,7 +129,7 @@ const openSnooze = (item) => {
 
 const handleSnoozeConfirm = (newSnoozeISO) => {
   if (selectedItemForSnooze.value) {
-    store.patchItem(selectedItemForSnooze.value.id, {
+    store.updateItem(selectedItemForSnooze.value.id, {
       checked: true,
       isSnoozed: true,
       snoozeUntil: newSnoozeISO,
@@ -117,7 +140,14 @@ const handleSnoozeConfirm = (newSnoozeISO) => {
 };
 
 const handleManualActivation = (item) => {
-  store.patchItem(item.id, {
+  const now = new Date();
+  const startDate = new Date(item.originalDate);
+
+  if (startDate > now) {
+    return;
+  }
+
+  store.updateItem(item.id, {
     checked: false,
     isSnoozed: false,
     snoozeUntil: null,

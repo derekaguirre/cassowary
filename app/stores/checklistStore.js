@@ -3,7 +3,11 @@ import {
   getSnoozeWakeDate,
 } from "@/composables/useChecklistTimer";
 import * as dbChecklist from "@/data/database/dbChecklist";
-import globalChecklistTasks from "@/data/globalChecklistTasks";
+import {
+  getGlobalTasks,
+  GLOBAL_DATA_VERSION,
+} from "@/data/globalChecklistTasks";
+import { useSettingsStore } from "@/stores/settingsStore";
 import { useStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
 import { computed, ref, watch } from "vue";
@@ -11,123 +15,168 @@ import { computed, ref, watch } from "vue";
 export const useChecklistStore = defineStore("checklist", () => {
   const storage = useStorage("checklist", {});
   const checklist = ref({});
-  const globalIds = new Set(globalChecklistTasks.map((t) => String(t.id)));
+  const settings = useSettingsStore();
+  const lastSeenVersion = useStorage("checklist_version", "0.0.0");
+  const needsUpdate = ref(false);
+
+  function checkVersion() {
+    if (GLOBAL_DATA_VERSION !== lastSeenVersion.value) {
+      needsUpdate.value = true;
+      return true;
+    }
+    return false;
+  }
+
+  function confirmUpdate() {
+    lastSeenVersion.value = GLOBAL_DATA_VERSION;
+    storage.value = checklist.value;
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  }
 
   function init() {
-    // Load from storage
+    const globalTasks = getGlobalTasks();
+    const globalIds = new Set(globalTasks.map((t) => String(t.id)));
     const stored = storage.value || {};
-
     const newChecklist = { ...stored };
 
-    // Remove unlisted globals
+    // 1. Remove old globals that no longer exist in the code
     Object.keys(newChecklist).forEach((id) => {
       if (newChecklist[id].isGlobal && !globalIds.has(id)) {
         delete newChecklist[id];
       }
     });
 
-    // Merge or add global tasks
-    for (const globalTask of globalChecklistTasks) {
+    // 2. Smart Merge global tasks
+    for (const globalTask of globalTasks) {
       const id = String(globalTask.id);
-      newChecklist[id] = newChecklist[id]
-        ? { ...globalTask, ...newChecklist[id], isGlobal: true } // If exists merge
-        : { ...dbChecklist.checklistItem, ...globalTask, isGlobal: true }; // Otherwise create new
-    }
+      const existing = stored[id];
 
-    checklist.value = newChecklist;
-  }
+      if (!existing) {
+        // New task entirely
+        newChecklist[id] = {
+          ...dbChecklist.checklistItem,
+          ...globalTask,
+          isGlobal: true,
+        };
+      } else {
+        // SMART UPDATE LOGIC:
+        // Check if Title or Dates changed in the code vs storage
+        const titleChanged = existing.title !== globalTask.title;
+        const timesChanged =
+          existing.originalDate !== globalTask.originalDate ||
+          existing.deadline !== globalTask.deadline;
 
-  // Persist changes to storage whenever checklist changes
-  watch(
-    checklist,
-    (newVal) => {
-      storage.value = newVal;
-    },
-    { deep: true },
-  );
+        newChecklist[id] = {
+          ...existing, // Keep user progress (checked, snooze status)
+          ...globalTask, // Override with new data from code (title, dates, recurType)
+          isGlobal: true,
+        };
 
-  function patchItem(id, patches) {
-    const strId = String(id);
-    const item = checklist.value[strId];
-    if (!item) return;
-
-    // Snooze cannot exceed cycle reset
-    if (patches.snoozeUntil) {
-      const resetDate = getNextResetDate(item, new Date(item.completionDate));
-      if (resetDate && new Date(patches.snoozeUntil) > resetDate) {
-        patches.snoozeUntil = resetDate.toISOString();
+        // If title changed, reactivate the task (reset completion)
+        if (titleChanged) {
+          newChecklist[id].checked = false;
+          newChecklist[id].completionDate = null;
+          newChecklist[id].isSnoozed = false;
+          newChecklist[id].snoozeUntil = null;
+        }
       }
     }
 
-    Object.assign(item, patches, { updated_at: new Date().toISOString() });
+    checklist.value = newChecklist;
+    resetCycles();
+  }
+
+  // Watch for server changes to recalculate times
+  watch(
+    () => settings.selectedServer,
+    () => {
+      init();
+    },
+  );
+
+  function getSortTime(item) {
+    if (item.isSnoozed && item.snoozeUntil)
+      return new Date(item.snoozeUntil).getTime();
+    const resetDate = getNextResetDate(item);
+    if (resetDate) return resetDate.getTime();
+    if (item.deadline) return new Date(item.deadline).getTime();
+    return Infinity;
   }
 
   function resetCycles() {
     const now = new Date();
-
     Object.values(checklist.value).forEach((item) => {
-      // Snooze wake‑up
+      const startDate = new Date(item.originalDate);
+      if (startDate > now) {
+        item.isSnoozed = true;
+        item.snoozeUntil = item.originalDate;
+        item.checked = false;
+        return;
+      }
       const snoozeDate = getSnoozeWakeDate(item);
       if (item.isSnoozed && snoozeDate && now >= snoozeDate) {
         item.isSnoozed = false;
         item.snoozeUntil = null;
-        item.checked = false; // move back to active
-        item.updated_at = now.toISOString();
+        item.checked = false;
       }
-
-      // Recurring reset (only if not snoozed)
-      if (!item.isSnoozed && item.checked && item.recurrence !== "none") {
+      if (!item.isSnoozed && item.checked) {
         const baseDate = new Date(item.completionDate || item.originalDate);
         const resetDate = getNextResetDate(item, baseDate);
         if (resetDate && now >= resetDate) {
           item.checked = false;
           item.completionDate = null;
-          item.updated_at = now.toISOString();
         }
       }
     });
   }
 
-  function upsert(item) {
-    const id = item.id || `user-${crypto.randomUUID()}`;
-    const now = new Date().toISOString();
-    const existing = checklist.value[id];
-
-    const newItem = {
-      ...dbChecklist.checklistItem,
-      ...existing,
-      ...item,
-      id,
-      updated_at: now,
-      created_at: existing?.created_at || now,
-    };
-    checklist.value[id] = newItem;
-  }
-
   const incompletedTasks = computed(() =>
     Object.values(checklist.value)
-      .filter((t) => !t.checked)
-      .sort((a, b) => a.title.localeCompare(b.title)),
+      .filter((t) => !t.checked && !t.isSnoozed)
+      .sort((a, b) => getSortTime(a) - getSortTime(b)),
   );
 
   const completedTasks = computed(() =>
-    Object.values(checklist.value).filter((t) => t.checked),
+    Object.values(checklist.value)
+      .filter((t) => t.checked || t.isSnoozed)
+      .sort((a, b) => getSortTime(a) - getSortTime(b)),
   );
+
+  // watch(
+  //   checklist,
+  //   (newVal) => {
+  //     storage.value = newVal;
+  //   },
+  //   { deep: true },
+  // );
 
   return {
     checklist,
     incompletedTasks,
     completedTasks,
+    needsUpdate,
+    checkVersion,
+    confirmUpdate,
     init,
-    patchItem,
-    upsert,
     resetCycles,
+    updateItem: (id, updates) => {
+      if (checklist.value[id]) {
+        Object.assign(checklist.value[id], updates);
+      }
+    },
     checkItem: (id) =>
-      patchItem(id, {
+      Object.assign(checklist.value[id], {
         checked: true,
         completionDate: new Date().toISOString(),
       }),
     uncheckItem: (id) =>
-      patchItem(id, { checked: false, completionDate: null }),
+      Object.assign(checklist.value[id], {
+        checked: false,
+        completionDate: null,
+        isSnoozed: false,
+        snoozeUntil: null,
+      }),
   };
 });
