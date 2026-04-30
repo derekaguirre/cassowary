@@ -1,75 +1,176 @@
+import { checklistItem } from "@/data/database/dbChecklist";
+import { useSettingsStore } from "@/stores/settingsStore";
+/**
+ * THE UNIVERSAL ANCHOR
+ * Converts simple strings to ISO strings with the dynamic server offset.
+ */
+const toServerTime = (dateStr, time = "04:00:00") => {
+  if (!dateStr) return null;
+  const settings = useSettingsStore();
+  const OFFSET = settings.currentOffset || "+08:00";
+
+  // If dateStr already contains a time (HH:mm), we don't want to append the default time
+  if (dateStr.includes(" ") || dateStr.includes("T")) {
+    const formatted = dateStr.replace(" ", "T");
+    // Only add offset if it doesn't have one
+    return formatted.includes("+") || formatted.includes("Z")
+      ? formatted
+      : `${formatted}${OFFSET}`;
+  }
+
+  return `${dateStr}T${time}${OFFSET}`;
+};
+
+// Base Factory
 const createTask = (overrides) => ({
-  id: crypto.randomUUID(),
-  title: "Untitled Task",
-  description: "",
-  recurrence: "none",
-  recurrenceMode: "from-original",
-  originalDate: new Date().toISOString(),
-  completionDate: null,
-  deadline: null,
-  checked: false,
+  ...checklistItem,
   isGlobal: true,
-  anchorHour: null,
   ...overrides,
 });
 
-const daily = (id, title, description) =>
-  createTask({
+const daily = (id, title, description) => {
+  const PATCH_DATE = "2026-04-30";
+  const RESET_TIME = "04:00:00";
+  return createTask({
     id,
     title,
     description,
-    anchorHour: 2,
-    recurrence: "daily",
+    recurType: "daily",
+    originalDate: toServerTime(PATCH_DATE, RESET_TIME),
   });
+};
 
-const weekly = (id, title, originalDate) =>
+const weekly = (id, title, startDate) =>
   createTask({
     id,
     title,
-    originalDate,
     description: "Weekly",
-    recurrence: "weekly",
-    anchorHour: 2,
+    recurType: "weekly",
+    originalDate: toServerTime(startDate),
   });
 
-const event = (id, title, description, startDate = null, deadline) =>
+const event = (id, title, description, deadline, startDate) =>
   createTask({
     id,
     title,
-    deadline,
     description,
-    recurrence: "none",
-    ...(startDate && { originalDate: startDate }),
+    recurType: "none",
+    originalDate: toServerTime(startDate),
+    deadline: toServerTime(deadline),
   });
 
-const cyclical = (id, title, description, days, originalDate) =>
+const cyclical = (id, title, description, days, startDate) =>
   createTask({
     id,
     title,
-    originalDate,
     description,
-    recurrence: "custom",
-    recurrenceDays: days,
+    recurType: "custom",
+    recurDays: days,
+    originalDate: toServerTime(startDate),
   });
 
 // prettier-ignore
-export default [
-  daily("daily-1", "Daily Activity Points", "Daily"),
-  daily("daily-2", "Tacet Discord Nests", "Daily"),
+export const GLOBAL_DATA_VERSION = "0.11.1";
 
-  weekly("weekly-1", "Weekly Bosses", "2026-02-23T09:00:00Z"),
-  weekly("weekly-2","Fantasies of the Thousand Gateways","2026-02-23T09:00:00Z"),
-
-  cyclical("cyclical-1", "Tower of Adversity", "Endgame", 28, "2026-02-02T09:00:00Z"),
-  cyclical("cyclical-2", "Whimpering Wastes", "Endgame", 28, "2026-01-19T09:00:00Z"),
-  cyclical("cyclical-3", "Endstate Matrix", "Endgame", 36, "2026-02-10T20:00:00Z"),
-  cyclical("store-1", "Oscillated Coral Shop", "Store", 42, "2026-02-04T17:00:00Z"),
-
-  event("event-1", "Lahai-Roi Blocks", "Event", "2026-03-26 04:00", "2026-04-13 03:59"),
-  event("event-2", "Speed up! F.U.E.L. Instrumentality Project!", "Event", "2026-04-02 04:00", "2026-04-20 03:59"),
-  event("event-3", "Knights of the Wild", "Event", "2026-04-09 10:00" ,"2026-04-29 03:59"),
-  event("event-4", "The Flaming Red in Memory", "Event", "2026-04-16 04:00", "2026-04-29 03:59"),
-
-  event("checkin-1", "Gifts of Solsworn", "Check-in","2026-03-19 11:00", "2026-04-29 03:59"),
-
-];
+export const getGlobalTasks = () => {
+  const patchStartDay = "2026-03-19";
+  const dailyResetTime = "04:00";
+  const maintenenceEndTime = "11:00";
+  const shopResetTime = "12:00";
+  const versionResetTime = "15:00";
+  return [
+    // // DAILIES
+    daily("global-daily-1", "Work In Progress", ""),
+    // daily("global-daily-2", "Tacet Discord Nests", "Daily"),
+    // weekly("global-weekly-1", "Weekly Bosses", `2026-02-23 ${dailyResetTime}`),
+    // weekly(
+    //   "global-weekly-2",
+    //   "Fantasies of the Thousand Gateways",
+    //   `2026-02-23 ${dailyResetTime}`,
+    // ),
+    // cyclical(
+    //   "global-cyclical-1",
+    //   "Tower of Adversity",
+    //   "Endgame",
+    //   28,
+    //   `2026-02-02 ${dailyResetTime}`,
+    // ),
+    // cyclical(
+    //   "global-cyclical-2",
+    //   "Whimpering Wastes",
+    //   "Endgame",
+    //   28,
+    //   `2026-01-19 ${dailyResetTime}`,
+    // ),
+    // cyclical(
+    //   "global-cyclical-3",
+    //   "Endstate Matrix",
+    //   "Endgame",
+    //   41,
+    //   `${patchStartDay} ${versionResetTime}`,
+    // ),
+    // cyclical(
+    //   "global-store-1",
+    //   "Oscillated Coral Shop",
+    //   "Store",
+    //   41,
+    //   `${patchStartDay} ${shopResetTime}`,
+    // ),
+    // event(
+    //   "global-event-1",
+    //   "Second Coming of Solaris: Collab Season",
+    //   "Event",
+    //   `2026-06-07 ${shopResetTime}`,
+    //   `${patchStartDay} ${dailyResetTime}`,
+    // ),
+    // event(
+    //   "global-event-2",
+    //   "Star Bouncing",
+    //   "Event",
+    //   `2026-06-07 ${dailyResetTime}`,
+    //   `2026-05-02 ${dailyResetTime}`,
+    // ),
+    // event(
+    //   "global-event-3",
+    //   "Lollo Express: Promise Delivered",
+    //   "Event",
+    //   `2026-06-07 ${dailyResetTime}`,
+    //   `2026-05-07 ${dailyResetTime}`,
+    // ),
+    // event(
+    //   "global-event-4",
+    //   "Cubie Derby: Championship",
+    //   "Event",
+    //   `2026-05-25 ${dailyResetTime}`,
+    //   `2026-05-09 ${dailyResetTime}`,
+    // ),
+    // event(
+    //   "global-event-5",
+    //   "Bountiful Waves",
+    //   "Event",
+    //   `2026-06-15 ${dailyResetTime}`,
+    //   `${patchStartDay} ${shopResetTime}`,
+    // ),
+    // event(
+    //   "global-event-5",
+    //   "Bountiful Waves",
+    //   "Event",
+    //   `2026-06-15 ${dailyResetTime}`,
+    //   `${patchStartDay} ${shopResetTime}`,
+    // ),
+    // event(
+    //   "global-event-5",
+    //   "Into the Memory Program!",
+    //   "Web Event",
+    //   `2026-06-15 ${dailyResetTime}`,
+    //   `${patchStartDay} ${shopResetTime}`,
+    // ),
+    // event(
+    //   "global-checkin-1",
+    //   "Gifts of Grand Celebration",
+    //   "Check-in",
+    //   `2026-06-07 ${dailyResetTime}`,
+    //   `${patchStartDay} ${maintenenceEndTime}`,
+    // ),
+  ];
+};

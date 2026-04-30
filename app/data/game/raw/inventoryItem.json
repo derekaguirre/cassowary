@@ -446,6 +446,12 @@
       "label": "When Irises Bloom",
       "rarity": "4"
     },
+    "we_who_question": {
+      "game_id": 41400304,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+      "label": "We Who Question",
+      "rarity": "4"
+    },
     "curse_of_the_abyss": {
       "game_id": 41400254,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
@@ -620,6 +626,24 @@
       "game_id": 42601430,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
       "label": "Edelschnee",
+      "rarity": "1"
+    },
+    "dream_of_stars": {
+      "game_id": 42601480,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+      "label": "Dream of Stars",
+      "rarity": "1"
+    },
+    "forget_me_not": {
+      "game_id": 42601500,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
+      "label": "Forget-Me-Not",
+      "rarity": "1"
+    },
+    "redbell": {
+      "game_id": 42601490,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
+      "label": "Redbell",
       "rarity": "1"
     }
   },

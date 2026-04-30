@@ -368,6 +368,15 @@
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "metallic_drip"
   },
+  "frostburn": {
+    "game_id": 21020086,
+    "display_name": "Frostburn",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/Frostburn.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
+  },
   "fables_of_wisdom": {
     "game_id": 21020094,
     "display_name": "Fables of Wisdom",
@@ -692,6 +701,15 @@
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "cadence"
   },
+  "solsworn_ciphers": {
+    "game_id": 21040066,
+    "display_name": "Solsworn Ciphers",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/SolswornCiphers.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
+  },
   "stonard": {
     "game_id": 21040074,
     "display_name": "Stonard",
@@ -837,7 +855,7 @@
     "tiered_forgery_weapon_skill_material": "helix"
   },
   "boson_astrolabe": {
-    "game_id": 21040056,
+    "game_id": 21050045,
     "display_name": "Boson Astrolabe",
     "rarity": 5,
     "weapon_type": "rectifier",
@@ -889,6 +907,15 @@
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/LetheanElegy.png?raw=true",
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "helix"
+  },
+  "forged_dwarf_star": {
+    "game_id": 21050076,
+    "display_name": "Forged Dwarf Star",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/ForgedDwarfStar.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "tiered_forgery_weapon_skill_material": "string"
   },
   "augment": {
     "game_id": 21050074,

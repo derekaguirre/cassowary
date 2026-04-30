@@ -351,6 +351,28 @@
       { "stat": "havoc_dmg_bonus", "value": 0.042 }
     ]
   },
+  "denia": {
+    "game_id": 1211,
+    "display_name": "Denia",
+    "weapon": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Denia.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "boss_ascension_material": "burning_judgment",
+    "overworld_resource_ascension_material": "dream_of_stars",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "string",
+    "bonus_stats": [
+      { "stat": "crit_dmg", "value": 0.024 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_dmg", "value": 0.024 },
+      { "stat": "crit_dmg", "value": 0.056 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_dmg", "value": 0.056 }
+    ]
+  },
   "encore": {
     "game_id": 1203,
     "display_name": "Encore",
@@ -393,6 +415,28 @@
       { "stat": "atk", "value": 0.042 },
       { "stat": "atk", "value": 0.042 },
       { "stat": "crit_dmg", "value": 0.056 }
+    ]
+  },
+  "hiyuki": {
+    "game_id": 1108,
+    "display_name": "Hiyuki",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Hiyuki.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "our_choice",
+    "overworld_resource_ascension_material": "redbell",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "polarizer",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
     ]
   },
   "iuno": {
@@ -904,7 +948,7 @@
   "sigrika": {
     "game_id": 1412,
     "display_name": "Sigrika",
-    "weapon": "gauntlets",
+    "weapon": "gauntlet",
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Sigrika.png?raw=true",
     "rarity": 5,
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",

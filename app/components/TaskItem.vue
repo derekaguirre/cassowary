@@ -6,13 +6,18 @@
         ? 'border-blue-500/30 bg-blue-500/5'
         : item.checked
           ? 'border-emerald-500/30 bg-emerald-500/5 opacity-70'
-          : isOverdue(item)
+          : isRed
             ? 'border-red-500/40 bg-red-500/5'
             : 'border-gray-800 bg-gray-900/50 hover:bg-gray-800/50 hover:border-gray-700',
     ]"
   >
     <div
-      class="mr-4 text-xl cursor-pointer select-none transition-transform hover:scale-110 active:scale-90"
+      class="mr-4 text-xl select-none transition-transform"
+      :class="[
+        isFutureEvent
+          ? 'opacity-30'
+          : 'cursor-pointer hover:scale-110 active:scale-90',
+      ]"
       @click="toggleStatus"
     >
       <span v-if="item.isSnoozed">💤</span>
@@ -66,7 +71,7 @@
           :class="[
             item.isSnoozed
               ? 'bg-blue-500/15 text-blue-400 border-blue-500/20'
-              : isOverdue(item)
+              : isRed
                 ? 'bg-red-500/15 text-red-400 border-red-500/20'
                 : 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
             item.checked &&
@@ -82,10 +87,7 @@
 </template>
 
 <script setup>
-import {
-  isOverdue,
-  useReactiveCountdownLabel,
-} from "@/composables/useChecklistTimer";
+import { useReactiveCountdownLabel } from "@/composables/useChecklistTimer";
 import { computed } from "vue";
 
 const props = defineProps({
@@ -99,9 +101,21 @@ const emit = defineEmits([
   "open-snooze",
 ]);
 
+const isFutureEvent = computed(() => {
+  return new Date(props.item.originalDate) > new Date();
+});
+
+// This reactive label updates every 10 seconds
 const countdownLabel = useReactiveCountdownLabel(computed(() => props.item));
 
+const isRed = computed(() => {
+  if (props.item.checked || props.item.isSnoozed) return false;
+  return countdownLabel.value === "Overdue";
+});
+
 const toggleStatus = () => {
+  if (isFutureEvent.value) return;
+
   if (props.item.checked || props.item.isSnoozed) {
     emit("mark-incomplete", props.item);
   } else {
