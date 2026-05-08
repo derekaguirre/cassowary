@@ -1,5 +1,3 @@
-# [⛔ This project is NO LONGER UPDATED ⛔](https://github.com/boxofzero/cassowary/issues/36)
-
 # Cassowary
 
 ![Cassowary screenshot](./cassowary-screenshot.png 'Cassowary')
@@ -19,7 +17,7 @@
 
 ## Found bugs? Have ideas?
 
-Please create [issues](https://github.com/boxofzero/cassowary/issues).
+Please create [issues](https://github.com/derekaguirre/cassowary/issues).
 
 ## Disclaimer
 
