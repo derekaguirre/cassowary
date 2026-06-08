@@ -407,6 +407,12 @@
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_024_UI.webp",
       "label": "Our Choice",
       "rarity": "4"
+    },
+    "nightmare_flashdrive": {
+      "game_id": 41400314,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+      "label": "Nightmare Flashdrive",
+      "rarity": "4"
     }
   },
   "weekly_boss_skill_upgrade_material": {
@@ -644,6 +650,12 @@
       "game_id": 42601490,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
       "label": "Redbell",
+      "rarity": "1"
+    },
+    "past_reveries": {
+      "game_id": 42601510,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
+      "label": "Past Reveries",
       "rarity": "1"
     }
   },

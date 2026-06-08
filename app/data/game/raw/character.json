@@ -571,6 +571,50 @@
       { "stat": "crit_rate", "value": 0.028 }
     ]
   },
+  "lucilla": {
+    "game_id": 1109,
+    "display_name": "Lucilla",
+    "weapon": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Lucilla.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "boss_ascension_material": "suncoveters_reach",
+    "overworld_resource_ascension_material": "forget_me_not",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "string",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "lucy": {
+    "game_id": 1511,
+    "display_name": "Lucy",
+    "weapon": "pistols",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Lucy.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "nightmare_flashdrive",
+    "overworld_resource_ascension_material": "past_reveries",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "combustor",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
   "luuk_herssen": {
     "game_id": 1510,
     "display_name": "Luuk Herssen",
@@ -736,6 +780,28 @@
     "overworld_resource_ascension_material": "wintry_bell",
     "weekly_boss_skill_upgrade_material": "curse_of_the_abyss",
     "tiered_forgery_weapon_skill_material": "metallic_drip",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "rebecca": {
+    "game_id": 1308,
+    "display_name": "Rebecca",
+    "weapon": "pistols",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Rebecca.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "boss_ascension_material": "nightmare_flashdrive",
+    "overworld_resource_ascension_material": "past_reveries",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "combustor",
     "bonus_stats": [
       { "stat": "crit_rate", "value": 0.012 },
       { "stat": "atk", "value": 0.018 },
