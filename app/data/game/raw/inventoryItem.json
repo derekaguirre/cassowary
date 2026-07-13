@@ -256,6 +256,30 @@
       "label": "Intact Exoswarm Pendant",
       "rarity": "5"
     },
+    "lf_autopuppet_kernel": {
+      "game_id": 41100091,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+      "label": "LF Autopuppet Kernel",
+      "rarity": "2"
+    },
+    "mf_autopuppet_kernel": {
+      "game_id": 41100092,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+      "label": "MF Autopuppet Kernel",
+      "rarity": "3"
+    },
+    "hf_autopuppet_kernel": {
+      "game_id": 41100093,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+      "label": "HF Autopuppet Kernel",
+      "rarity": "4"
+    },
+    "ff_autopuppet_kernel": {
+      "game_id": 41100094,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+      "label": "FF Autopuppet Kernel",
+      "rarity": "5"
+    },
     "mask_of_constraint": {
       "game_id": 41200031,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_001_UI.webp",
@@ -413,6 +437,12 @@
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
       "label": "Nightmare Flashdrive",
       "rarity": "4"
+    },
+    "solidaritys_loneflame": {
+      "game_id": 41400314,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+      "label": "Solidarity's Loneflame",
+      "rarity": "4"
     }
   },
   "weekly_boss_skill_upgrade_material": {
@@ -468,6 +498,12 @@
       "game_id": 41400294,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
       "label": "Gold in Memory",
+      "rarity": "4"
+    },
+    "skyward_glazed_heart": {
+      "game_id": 41400324,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+      "label": "Skyward Glazed Heart",
       "rarity": "4"
     }
   },
@@ -656,6 +692,24 @@
       "game_id": 42601510,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
       "label": "Past Reveries",
+      "rarity": "1"
+    },
+    "blade_blossom": {
+      "game_id": 42601620,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+      "label": "Blade Blossom",
+      "rarity": "1"
+    },
+    "cloudperch_seed": {
+      "game_id": 42601600,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+      "label": "Cloudperch Seed",
+      "rarity": "1"
+    },
+    "flowborne_dream": {
+      "game_id": 42601610,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+      "label": "Flowborne Dream",
       "rarity": "1"
     }
   },

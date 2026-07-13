@@ -377,6 +377,15 @@
     "tiered_enemy_drop_weapon_skill_material": "mech_core",
     "tiered_forgery_weapon_skill_material": "polarizer"
   },
+  "azure_oath": {
+    "game_id": 21020096,
+    "display_name": "Azure Oath",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/AzureOath.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
+  },
   "fables_of_wisdom": {
     "game_id": 21020094,
     "display_name": "Fables of Wisdom",
@@ -935,6 +944,16 @@
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
     "tiered_forgery_weapon_skill_material": "string"
   },
+  "freeze_frame": {
+    "game_id": 21050084,
+    "display_name": "Freeze Frame",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/FreezeFrame.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "tiered_forgery_weapon_skill_material": "string"
+  },
+
   "fusion_accretion": {
     "game_id": 21050084,
     "display_name": "Fusion Accretion",
@@ -944,15 +963,6 @@
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "helix"
   },
-  "freeze_frame": {
-    "game_id": 21050084,
-    "display_name": "Freeze Frame",
-    "rarity": 4,
-    "weapon_type": "rectifier",
-    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/FreezeFrame.png?raw=true",
-    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
-    "tiered_forgery_weapon_skill_material": "string"
-  },
   "waltz_in_masquerade": {
     "game_id": 21050094,
     "display_name": "Waltz in Masquerade",
@@ -961,6 +971,15 @@
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/WaltzinMasquerade.png?raw=true",
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "helix"
+  },
+  "firstlights_herald": {
+    "game_id": 21050096,
+    "display_name": "Firstlight's Herald",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/FirstlightsHerald.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "tiered_forgery_weapon_skill_material": "string"
   },
   "radiant_dawn": {
     "game_id": 21050104,

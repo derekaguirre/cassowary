@@ -263,6 +263,39 @@ export const enemy_drop_proper_data = [
   },
 
   {
+    general_name: "kernel",
+    name: "lf_autopuppet_kernel",
+    tier: 1,
+    from: undefined,
+    to: "mf_autopuppet_kernel",
+    count: 3,
+  },
+  {
+    general_name: "kernel",
+    name: "mf_autopuppet_kernel",
+    tier: 2,
+    from: "lf_autopuppet_kernel",
+    to: "hf_autopuppet_kernel",
+    count: 3,
+  },
+  {
+    general_name: "kernel",
+    name: "hf_autopuppet_kernel",
+    tier: 3,
+    from: "mf_autopuppet_kernel",
+    to: "ff_autopuppet_kernel",
+    count: 3,
+  },
+  {
+    general_name: "kernel",
+    name: "ff_autopuppet_kernel",
+    tier: 4,
+    from: "hf_autopuppet_kernel",
+    to: undefined,
+    count: undefined,
+  },
+
+  {
     general_name: "mask",
     name: "mask_of_constraint",
     tier: 1,

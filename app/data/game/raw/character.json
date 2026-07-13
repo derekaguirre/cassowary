@@ -835,6 +835,28 @@
       { "stat": "crit_dmg", "value": 0.056 }
     ]
   },
+  "rover_aero_male": {
+    "game_id": 1406,
+    "display_name": "Rover: Aero-Male",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverAeroMale.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "tidal_residuum",
+    "boss_ascension_material": "mysterious_code",
+    "overworld_resource_ascension_material": "pecok_flower",
+    "weekly_boss_skill_upgrade_material": "when_irises_bloom",
+    "tiered_forgery_weapon_skill_material": "metallic_drip",
+    "bonus_statws": [
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "healing_bonus", "value": 0.042 }
+    ]
+  },
   "rover_aero_female": {
     "game_id": 1408,
     "display_name": "Rover: Aero-Female",
@@ -857,48 +879,48 @@
       { "stat": "healing_bonus", "value": 0.042 }
     ]
   },
-  "rover_aero_male": {
-    "game_id": 1406,
-    "display_name": "Rover: Aero-Male",
+  "rover_electro_male": {
+    "game_id": 1309,
+    "display_name": "Rover: Electro-Male",
     "weapon": "sword",
-    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverAeroMale.png?raw=true",
-    "rarity": 5,
-    "tiered_enemy_drop_weapon_skill_material": "tidal_residuum",
-    "boss_ascension_material": "mysterious_code",
-    "overworld_resource_ascension_material": "pecok_flower",
-    "weekly_boss_skill_upgrade_material": "when_irises_bloom",
-    "tiered_forgery_weapon_skill_material": "metallic_drip",
-    "bonus_stats": [
-      { "stat": "healing_bonus", "value": 0.018 },
-      { "stat": "atk", "value": 0.018 },
-      { "stat": "atk", "value": 0.018 },
-      { "stat": "healing_bonus", "value": 0.018 },
-      { "stat": "healing_bonus", "value": 0.042 },
-      { "stat": "atk", "value": 0.042 },
-      { "stat": "atk", "value": 0.042 },
-      { "stat": "healing_bonus", "value": 0.042 }
-    ]
-  },
-  "rover_havoc_female": {
-    "game_id": 1604,
-    "display_name": "Rover: Havoc-Female",
-    "weapon": "sword",
-    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverHavocFemale.png?raw=true",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverElectroMale.png?raw=true",
     "rarity": 5,
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "boss_ascension_material": "mysterious_code",
     "overworld_resource_ascension_material": "pecok_flower",
-    "weekly_boss_skill_upgrade_material": "dreamless_feather",
-    "tiered_forgery_weapon_skill_material": "metallic_drip",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "polarizer",
     "bonus_stats": [
-      { "stat": "havoc_dmg_bonus", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
       { "stat": "atk", "value": 0.018 },
       { "stat": "atk", "value": 0.018 },
-      { "stat": "havoc_dmg_bonus", "value": 0.018 },
-      { "stat": "havoc_dmg_bonus", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
       { "stat": "atk", "value": 0.042 },
       { "stat": "atk", "value": 0.042 },
-      { "stat": "havoc_dmg_bonus", "value": 0.042 }
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "rover_electro_female": {
+    "game_id": 1310,
+    "display_name": "Rover: Electro-Female",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverElectroFemale.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
+    "boss_ascension_material": "mysterious_code",
+    "overworld_resource_ascension_material": "pecok_flower",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "polarizer",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
     ]
   },
   "rover_havoc_male": {
@@ -923,11 +945,33 @@
       { "stat": "havoc_dmg_bonus", "value": 0.042 }
     ]
   },
-  "rover_spectro_female": {
-    "game_id": 1502,
-    "display_name": "Rover: Spectro-Female",
+  "rover_havoc_Female": {
+    "game_id": 1605,
+    "display_name": "Rover: Havoc-Female",
     "weapon": "sword",
-    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverSpectroFemale.png?raw=true",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverHavocFemale.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
+    "boss_ascension_material": "mysterious_code",
+    "overworld_resource_ascension_material": "pecok_flower",
+    "weekly_boss_skill_upgrade_material": "dreamless_feather",
+    "tiered_forgery_weapon_skill_material": "metallic_drip",
+    "bonus_stats": [
+      { "stat": "havoc_dmg_bonus", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "havoc_dmg_bonus", "value": 0.018 },
+      { "stat": "havoc_dmg_bonus", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "havoc_dmg_bonus", "value": 0.042 }
+    ]
+  },
+  "rover_spectro_male": {
+    "game_id": 1501,
+    "display_name": "Rover: Spectro-Male",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverSpectroMale.png?raw=true",
     "rarity": 5,
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "boss_ascension_material": "mysterious_code",
@@ -945,11 +989,11 @@
       { "stat": "spectro_dmg_bonus", "value": 0.042 }
     ]
   },
-  "rover_spectro_male": {
-    "game_id": 1501,
-    "display_name": "Rover: Spectro-Male",
+  "rover_spectro_female": {
+    "game_id": 1502,
+    "display_name": "Rover: Spectro-Female",
     "weapon": "sword",
-    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverSpectroMale.png?raw=true",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/RoverSpectroFemale.png?raw=true",
     "rarity": 5,
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "boss_ascension_material": "mysterious_code",
@@ -1031,6 +1075,28 @@
       { "stat": "atk", "value": 0.042 },
       { "stat": "atk", "value": 0.042 },
       { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "suisui": {
+    "game_id": 1110,
+    "display_name": "Suisui",
+    "weapon": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Suisui.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "kernel",
+    "boss_ascension_material": "solidaritys_loneflame",
+    "overworld_resource_ascension_material": "flowborne_dream",
+    "weekly_boss_skill_upgrade_material": "skyward_glazed_heart",
+    "tiered_forgery_weapon_skill_material": "string",
+    "bonus_stats": [
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.042 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "healing_bonus", "value": 0.042 }
     ]
   },
   "taoqi": {
@@ -1119,6 +1185,28 @@
       { "stat": "atk", "value": 0.042 },
       { "stat": "atk", "value": 0.042 },
       { "stat": "aero_dmg_bonus", "value": 0.042 }
+    ]
+  },
+  "yangyang_xuanling": {
+    "game_id": 1610,
+    "display_name": "Yangyang: Xuanling",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/YangyangXuanling.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "kernel",
+    "boss_ascension_material": "solidaritys_loneflame",
+    "overworld_resource_ascension_material": "cloudperch_seed",
+    "weekly_boss_skill_upgrade_material": "skyward_glazed_heart",
+    "tiered_forgery_weapon_skill_material": "polarizer",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
     ]
   },
   "yinlin": {
