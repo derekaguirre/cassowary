@@ -483,6 +483,28 @@
       { "stat": "crit_rate", "value": 0.028 }
     ]
   },
+  "jingran": {
+    "game_id": 1212,
+    "display_name": "Jingran",
+    "weapon": "broadblade",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Jingran.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
+    "boss_ascension_material": "forged_empyreans_sigh",
+    "overworld_resource_ascension_material": "cloudperch_seed",
+    "weekly_boss_skill_upgrade_material": "skyward_glazed_heart",
+    "tiered_forgery_weapon_skill_material": "carved_crystal",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
   "jinhsi": {
     "game_id": 1304,
     "display_name": "Jinhsi",
@@ -758,6 +780,28 @@
     "overworld_resource_ascension_material": "afterlife",
     "weekly_boss_skill_upgrade_material": "the_netherworlds_stare",
     "tiered_forgery_weapon_skill_material": "helix",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
+  },
+  "qingxiao": {
+    "game_id": 1413,
+    "display_name": "Qingxiao",
+    "weapon": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Qingxiao.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "kernel",
+    "boss_ascension_material": "forged_empyreans_sigh",
+    "overworld_resource_ascension_material": "blade_blossom",
+    "weekly_boss_skill_upgrade_material": "we_who_question",
+    "tiered_forgery_weapon_skill_material": "polarizer",
     "bonus_stats": [
       { "stat": "crit_rate", "value": 0.012 },
       { "stat": "atk", "value": 0.018 },

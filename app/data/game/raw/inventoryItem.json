@@ -443,6 +443,12 @@
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
       "label": "Solidarity's Loneflame",
       "rarity": "4"
+    },
+    "forged_empyreans_sigh": {
+      "game_id": 41400344,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+      "label": "Forged Empyrean's Sigh",
+      "rarity": "4"
     }
   },
   "weekly_boss_skill_upgrade_material": {

@@ -161,6 +161,15 @@
     "tiered_enemy_drop_weapon_skill_material": "whisperin_core",
     "tiered_forgery_weapon_skill_material": "waveworn_residue"
   },
+  "thousandfold_deliverance": {
+    "game_id": 21010076,
+    "display_name": "Thousandfold Deliverance",
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/ThousandfoldDeliverance.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "carved_crystal"
+  },
   "waning_redshift": {
     "game_id": 21010084,
     "display_name": "Waning Redshift",
@@ -403,6 +412,15 @@
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/FeatherEdge.png?raw=true",
     "tiered_enemy_drop_weapon_skill_material": "howler_core",
     "tiered_forgery_weapon_skill_material": "metallic_drip"
+  },
+  "glint_of_clouds": {
+    "game_id": 21020106,
+    "display_name": "Glint of Clouds",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/GlintOfClouds.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
   },
   "pistols_of_night": {
     "game_id": 21030013,
