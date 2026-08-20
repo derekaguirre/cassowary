@@ -803,14 +803,14 @@
     "weekly_boss_skill_upgrade_material": "we_who_question",
     "tiered_forgery_weapon_skill_material": "polarizer",
     "bonus_stats": [
-      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_dmg", "value": 0.024 },
       { "stat": "atk", "value": 0.018 },
       { "stat": "atk", "value": 0.018 },
-      { "stat": "crit_rate", "value": 0.012 },
-      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "crit_dmg", "value": 0.024 },
+      { "stat": "crit_dmg", "value": 0.056 },
       { "stat": "atk", "value": 0.042 },
       { "stat": "atk", "value": 0.042 },
-      { "stat": "crit_rate", "value": 0.028 }
+      { "stat": "crit_dmg", "value": 0.056 }
     ]
   },
   "qiuyuan": {
