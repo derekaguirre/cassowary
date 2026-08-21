@@ -25,6 +25,7 @@
   "devDependencies": {
     "@nuxt/test-utils": "^3.19.2",
     "@playwright/test": "^1.55.0",
+    "@rolldown/binding-win32-x64-msvc": "^1.2.5",
     "@vue/test-utils": "^2.4.6",
     "@vueuse/core": "^13.9.0",
     "@vueuse/nuxt": "^13.9.0",
@@ -32,14 +33,13 @@
     "vitest": "^3.2.4"
   },
   "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@latest"
-    },
     "onlyBuiltDependencies": [
       "@tailwindcss/oxide",
       "@parcel/watcher",
       "esbuild",
-      "vue-demi"
+      "vue-demi",
+      "rolldown",
+      "@rolldown/binding-win32-x64-msvc"
     ]
   }
 }
