@@ -422,6 +422,15 @@
     "tiered_enemy_drop_weapon_skill_material": "mech_core",
     "tiered_forgery_weapon_skill_material": "polarizer"
   },
+  "unspoken_rue": {
+    "game_id": 21020107,
+    "display_name": "Unspoken Rue",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/UnspokenRue.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
+  },
   "pistols_of_night": {
     "game_id": 21030013,
     "display_name": "Pistols of Night",
@@ -996,6 +1005,15 @@
     "rarity": 5,
     "weapon_type": "rectifier",
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/FirstlightsHerald.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "tiered_forgery_weapon_skill_material": "string"
+  },
+  "blooming_jadehaven": {
+    "game_id": 21050116,
+    "display_name": "Blooming Jadehaven",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/BloomingJadehaven.png?raw=true",
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
     "tiered_forgery_weapon_skill_material": "string"
   },
