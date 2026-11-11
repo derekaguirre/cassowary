@@ -571,6 +571,28 @@
       { "stat": "crit_rate", "value": 0.028 }
     ]
   },
+  "lily": {
+    "game_id": 1512,
+    "display_name": "Lily",
+    "weapon": "pistols",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/Lily.png?raw=true",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "suncoveters_reach",
+    "overworld_resource_ascension_material": "reverie_lily",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "combustor",
+    "bonus_stats": [
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "hp", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.018 },
+      { "stat": "healing_bonus", "value": 0.042 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "hp", "value": 0.042 },
+      { "stat": "healing_bonus", "value": 0.042 }
+    ]
+  },
   "lingyang": {
     "game_id": 1104,
     "display_name": "Lingyang",

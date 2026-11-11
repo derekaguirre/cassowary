@@ -566,12 +566,21 @@
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "phlogiston"
   },
-  "Skull Thrasher": {
+  "skull_thrasher": {
     "game_id": 21030066,
     "display_name": "Skull Thrasher",
     "rarity": 5,
     "weapon_type": "pistols",
     "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/SkullThrasher.png?raw=true",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "combustor"
+  },
+  "lullaby": {
+    "game_id": 21030076,
+    "display_name": "Lullaby",
+    "rarity": 5,
+    "weapon_type": "pistols",
+    "icon": "https://github.com/ryanbenson/wuthering-waves-assets/blob/master/images/weapons/Lullaby.png?raw=true",
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
     "tiered_forgery_weapon_skill_material": "combustor"
   },

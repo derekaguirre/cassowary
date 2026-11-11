@@ -700,6 +700,12 @@
       "label": "Redbell",
       "rarity": "1"
     },
+    "reverie_lily": {
+      "game_id": 42601650,
+      "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_090_UI.webp",
+      "label": "Reverie Lily",
+      "rarity": "1"
+    },
     "past_reveries": {
       "game_id": 42601510,
       "icon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
